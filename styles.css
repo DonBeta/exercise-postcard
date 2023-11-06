@@ -1,0 +1,64 @@
+body {
+	background: black;
+	font-family: "Mountains of Christmas", serif;
+}
+
+p {
+	font-size: 18px;
+	color: red;
+}
+
+.postcard {
+	background-image: url(https://media.istockphoto.com/id/1066685262/es/foto/feliz-navidad-bolas-de-nieve-con-ramas-de-abeto.jpg?s=1024x1024&w=is&k=20&c=zt5beTuFT7DI7GA_B4qULHNHKrOS7jLRxpepTqGZ_78=);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 90%;
+	height: 100%;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+.body-left,
+.body-right {
+	padding: 6px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-image: url(https://www.oirealestate.net/noticias-inmobiliarias/wp-content/uploads/2020/12/portabfa.hfs_.png);
+	background-position: center;
+	background-size: 100% 100%;
+	padding: 10px;
+	font-size: 18px;
+	color: red;
+}
